@@ -63,7 +63,7 @@ module BootstrapPagination
     end
     
     def link(text, target, attributes = {})
-      attributes['data-remote'] = true
+      attributes['data-remote'] = false
       super
     end
   end
